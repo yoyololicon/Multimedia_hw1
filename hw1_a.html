@@ -4,38 +4,81 @@
 			HW1_a_0316223
 		</TITLE>
 	</HEAD>
+    <style type="text/css"> 
+        .blink_text { 
+
+            -webkit-animation-name: blinker;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+
+            -moz-animation-name: blinker;
+            -moz-animation-duration: 1s;
+            -moz-animation-timing-function: linear;
+            -moz-animation-iteration-count: infinite;
+            animation-name: blinker;
+            animation-duration: 1s;
+            animation-timing-function: linear; 
+            animation-iteration-count: infinite; 
+        } 
+
+        @-moz-keyframes blinker {
+            0% { opacity: 1.0; }
+            50% { opacity: 0.0; }
+            100% { opacity: 1.0; } 
+        }
+
+        @-webkit-keyframes blinker {  
+            0% { opacity: 1.0; }
+            50% { opacity: 0.0; }
+            100% { opacity: 1.0; } 
+        } 
+
+        @keyframes blinker {  
+            0% { opacity: 1.0; } 
+            50% { opacity: 0.0; }      
+            100% { opacity: 1.0; } 
+        } 
+    </style> 
 	<BODY style="background-color:powderblue;">
-		<font face="Times New Roman" size="4">
 		<center>
 		<p>
+            <font face="Times New Roman" size="4" color="DarkGreen">
 			I wandered lonely as a cloud
 			<br>That floats on high o’er vales and hills,
 			<br>When all at once I saw a crowd,
-			<br>A host, of <strong>golden daffodils</strong>;
-			<br>Beside the lake, beneath the trees,
+			<br>A host, of <strong><font color="GoldenRod">golden daffodils</font></strong>;
+			<br>Beside the <font color="blue">lake</font>, beneath the <font color="LightSeaGreen">trees</font>,
 			<br>Fluttering and dancing in the breeze.
+            </font>
 			<br>
+            <font face="Times New Roman" size="4" color="MidnightBlue">
 			<br>Continuous as the stars that shine
-			<br>And twinkle on the milky way,
+			<br>And <span class="blink_text">twinkle</span> on the milky way,
 			<br>They stretched in <em>never-ending line</em>
 			<br>Along the margin of a bay:
 			<br>Ten thousand saw I at a glance,
 			<br>Tossing their heads in sprightly dance.
+            </font>
 			<br>
+            <font face="Times New Roman" size="4" color="RoyalBlue">
 			<br>The waves beside them danced; but they
 			<br>Out-did the sparkling waves in glee:
 			<br>A poet could not but be <strong>gay</strong>,
 			<br>In such a jocund company:
-			<br>I gazed—and gazed—but little thought
-			<br>What wealth the show to me had brought:
+			<br>I gazed—<strong>and gazed</strong>—but little thought
+			<br><em>What wealth the show to me had brought:</em>
+            </font>
 			<br>
+            <font face="Times New Roman" size="4" color="OrangeRed">           
 			<br>For oft, when on my couch I lie
 			<br>In vacant or in pensive mood,
 			<br>They flash upon that inward eye
 			<br>Which is the bliss of solitude;
 			<br>And then my heart with pleasure fills,
-			<br>And dances with the <strong>daffodils</strong>.
-		</p>
+			<br>And dances with the <strong><font color="GoldenRod">daffodils</font></strong>.
+            </font>
+        </p>
 		</center>
 		</font>
 	</BODY>
